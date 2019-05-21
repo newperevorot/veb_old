@@ -1,0 +1,134 @@
+/*=========--MENU.CSS--=========*/
+/* меню */
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav li {
+	list-style: none;
+  padding: 15px;
+	display: inline-block;
+	*display:inline; /* ie7 */
+}
+.nav a {
+	text-decoration: none;
+	color: #999;
+	line-height: 100%;
+}
+.nav a:hover {
+	color: #000;
+}
+.nav .current a {
+	color: #fff;
+}
+/* меню по центру */
+.nav.center ul {
+	text-align: center;
+}
+/*=========--/MENU.CSS--=========*/
+
+/*=========--Burger-MENU.CSS--=========*/
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: rgba(51,170,77,0.9);
+  height: 100%;
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 9999;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.hidden-menu a {
+  color: #fff;
+  font-size: 20px;
+}
+.hidden-menu li {
+  margin-bottom: 15%;
+  margin-top: 2px;
+}
+.hidden-menu-ticker {
+  display: none;
+}
+.btn-menu {
+  margin-top: 3px;
+  color: #fff;
+  background: transparent;
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 99999;
+  width: 40px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+  background: #fff;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+  background: #fff;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+  background: #fff;
+}
+span.first {
+  background: #00AC44;
+}
+span.second {
+  background: #00AC44;
+}
+span.third {
+  background: #00AC44;
+}
+/*=========--/Burger-MENU.CSS--=========*/
+
+/*========--Переключение между меню--========*/
+@media (min-width: 768px) {
+.nav {
+	display: block;
+}
+.burger-menu {
+	display: none;
+}
+}
+
+@media (max-width: 768px) {
+nav.nav {
+	display: none;
+}
+.burger-menu {
+	display: block;
+}
+}
+/*========--Переключение между меню--========*/

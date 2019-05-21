@@ -1,0 +1,782 @@
+/*================== Исправление читабельности HEADER'а ==================*/
+@media (min-width: 991px) and (max-width: 1200px) {
+header {
+	background-size: 300px;
+	min-height: 600px;
+}
+header h1 {
+	margin-top: 15px;
+}
+.header-btn {
+	margin-top: 25px;
+}
+.custom-grid-row p {
+	font-family: 'helveticaneuecyrbold';
+	background: rgba(255,255,255,0.7);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+header {
+	background-size: 400px;
+	min-height: 630px;
+}
+header h1 {
+	margin-top: 15px;
+}
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+header {
+	background-size: 500px;
+	min-height: 630px;
+}
+header h1 {
+	margin-top: 25px;
+}
+.header-btn {
+	margin-top: 20px;
+}
+}
+@media (min-width: 1600px) and (max-width: 1820px) {
+header {
+	background-size: 600px;
+}
+header h1 {
+	margin-top: 35px;
+}
+}
+/*================== Исправление читабельности HEADER'а ==================*/	
+
+/*================== До 991px ==================*/
+@media (max-width: 991px) {
+.works {
+	width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.hat-row h3 {
+	padding-top: 0;
+}
+.hat-row h4 {
+	text-align: center;
+}
+.hat-btn {
+	float: none;
+}
+.hat-row {
+	text-align: center;
+}
+header {
+	background-size: 200px;
+	min-height: 630px;
+}
+header h1 {
+	margin-top: 0;
+}
+.header-btn {
+	margin-top: 0;
+}
+.custom-grid-row p {
+	font-size: 17px;
+}
+section#for-whom {
+	margin-top: 0;
+}
+section#types {
+	margin-top: 0;
+}
+.first-types-row,.second-types-row {
+	margin-top: 0;
+}
+.first-types-row img,.second-types-row img {
+	margin-top: 55px;
+}
+section#pro {
+	margin-top: 0;
+}
+section#pro h5, section#pro p {
+	text-align: center;
+}
+#diploma-desktop {
+	margin-top: 15px;
+}
+.cosmetics-row {
+	margin-top: 15px;
+}
+.cosmetics-row img {
+	margin-top: 55px;
+}
+.first-about-row, .second-about-row {
+	margin-top: 15px;
+}
+.first-about-row img, .second-about-row img {
+	margin-top: 35px;
+}
+.reviews-reed-more-mobile {
+	background: #FCFCFC;
+	padding: 20px;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: -30px;
+}
+.reviews-reed-more-mobile a {
+	font-family: 'helveticaneuecyrroman';
+	font-size: 16px;
+}
+section#reviews-mobile a:hover, section#reviews-mobile a:focus {
+	text-decoration: none;
+}
+section#reviews-mobile .item {
+	height: 450px;
+}
+section#reviews-mobile .reviews-card {
+	margin-top: 35px;
+	height: 400px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+section#reviews-mobile {
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	background: #FCFCFC;
+}
+section#reviews-mobile h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'helveticaneuecyrblack';
+	font-size: 25px;
+}
+section#questions {
+	margin-top: 15px;
+	padding-bottom: 0;
+}
+.questions-btn {
+	margin-top: 15px;
+}
+footer {
+	text-align: center;
+}
+.contacts-con {
+	margin-top: 35px;
+}
+div#form1 .modal-dialog, div#form4 .modal-dialog, div#form5 .modal-dialog, div#form6 .modal-dialog, div#form7 .modal-dialog {
+	width: 768px;
+}
+.modal-header-row {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal-header-row h5 {
+	margin-top: 25px;
+	font-size: 22px;
+}
+.modal-1-form-row {
+	margin-top: 0;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal-1-form-row input {
+	width: 420px;
+	margin-top: 15px;
+}
+.modal-1-form-row button {
+	width: 420px;
+	margin-top: 15px;
+}
+.modal-1-form-heading-row {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+div#form3 textarea {
+	width: 420px;
+}
+.modal-accordion-row {
+	padding-left: 0;
+	padding-right: 0;
+}
+#accordion-modal-1 .panel-body {
+	padding: 7px 15px 15px 15px;
+}
+.modal-header-row h3 {
+	font-size: 20px;
+}
+.modal-header-row h4 {
+	font-size: 30px;
+}
+#diploma-mobile {
+	margin-top: 35px;
+}
+}
+/*================== /До 991px ==================*/
+
+/*================== До 768px ==================*/
+@media (max-width: 768px) {
+.header-btn {
+	margin-top: 25px;
+}
+header {
+	padding-bottom: 35px;
+	border-bottom: 5px solid #1C242B;
+}
+header h1 {
+	font-size: 40px;
+}
+.custom-grid-row {
+	margin-top: 25px;
+}
+section#for-whom {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.for-whom-row {
+	margin-top: 0;
+}
+.for-whom-row img {
+	margin-top: 35px;
+}
+section#types {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.first-types-row img,.second-types-row img {
+	margin-top: 35px;
+}
+section#pro {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+section#pro h4 {
+	font-size: 20px;
+}
+.pro-img {
+	width: 400px;
+}
+section#cosmetics {
+	padding-top: 25px;
+	border-bottom: 2px solid #1C242B;
+}
+.cosmetics-h3 {
+	width: 350px;
+}
+.cosmetics-row img {
+	margin-top: 35px;
+}
+section#about-mobile {
+	padding-top: 25px;
+	border-bottom: 2px solid #1C242B;
+}
+section#reviews-mobile {
+	margin-top: 0;
+	padding-top: 25px;
+	border-bottom: 2px solid #1C242B;
+}
+section#questions {
+	margin-top: 0;
+	padding-top: 25px;
+}
+section#questions .panel-title {
+	font-size: 20px;
+}	
+div#form1 .modal-dialog, div#form4 .modal-dialog, div#form5 .modal-dialog, div#form6 .modal-dialog, div#form7 .modal-dialog {
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modal-1-form-row input {
+	width: 300px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.modal-1-form-row button {
+	margin-top: 10px;
+	width: 300px;
+	font-size: 13px;
+}
+div#form2 .modal-content {
+	background-color: #222;
+	color: #fff;
+	border-radius: 3px;
+	min-height: 265px;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modal-header-form-2  {
+	font-size: 17px;
+}
+div#form2 .modal-body {
+	padding-bottom: 5px;
+}
+div#form3 .modal-content {
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 380px;
+}
+div#form3 .modal-body {
+	padding-bottom: 5px;
+}
+div#form3 textarea {
+	width: 300px;
+	font-size: 13px;
+}
+.polit-header {
+	font-size: 14px;
+}
+div#polit .modal-body {
+	margin-top: -30px;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+div#polit .modal-header {
+	padding-top: 5px;
+}
+div#polit .close {
+	margin-top: -55px;
+}
+.modal-header-row p {
+	padding-left: 15px;
+	padding-right: 0;
+}
+}
+/*================== /До 768px ==================*/
+
+/*================== До 420px ==================*/
+@media (max-width: 420px) {
+header h1 span {
+	font-size: 15px;
+}
+header h1 {
+	font-size: 27px;
+}
+header h2 {
+	font-size: 15px;
+}
+.custom-grid-row {
+	margin-top: 15px;
+}
+.custom-grid-row p {
+	font-family: 'helveticaneuecyrbold';
+	font-size: 19px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+}
+.header-btn {
+	background: rgba(255,255,255,0.8);
+}
+.for-whom-h3 {
+	width: 250px;
+}
+section#types {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#types h3 {
+	font-size: 19px;
+}
+.types-h3 {
+	width: 170px;
+}
+.first-types-row img, .second-types-row img {
+	width: 220px;
+}
+section#pro {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#pro h3 {
+	font-size: 19px;
+}
+.pro-h3 {
+	width: 190px;
+}
+section#pro h4 {
+	margin-top: 25px;
+	font-size: 19px;
+}
+section#pro h5 {
+	font-size: 17px;
+}
+section#pro p {
+	font-size: 17px;
+}
+.pro-info-row {
+	margin-top: 50px;
+}
+.pro-img {
+	width: 225px;
+}
+section#works-mobile {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#works-mobile h3 {
+	font-size: 19px;
+}
+#carousel-portfolio-mobile {
+	margin-top: 5px;
+}
+.works img {
+	max-height: 181px;
+}
+.works-h3 {
+	width: 200px;
+}
+.works {
+	width: 250px;
+}
+.first-works-row {
+	margin-top: 15px;
+}
+.works-btn {
+	margin-top: 25px;
+	width: 220px;
+	font-size: 16px;
+}
+section#cosmetics {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#cosmetics h3 {
+	font-size: 19px;
+}
+.cosmetics-h3 {
+	width: 235px;
+}
+.cosmetics-row {
+	margin-top: -15px;
+}
+section#about-mobile {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#about-mobile h3 {
+	font-size: 19px;
+}
+.about-h3 {
+	width: 150px;
+}
+section#about-mobile img {
+	width: 190px;
+}
+.first-about-row, .second-about-row {
+	margin-top: 0;
+}
+section#reviews-mobile {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#reviews-mobile h3 {
+	font-size: 19px;
+}
+.reviews-h3 {
+	width: 220px;
+}
+section#reviews-mobile .reviews-card {
+	margin-top: 15px;
+}
+.reviews-card p {
+	font-size: 12px;
+}
+.reviews-card h5 {
+	font-size: 16px;
+}
+.reviews-card a {
+	font-size: 16px;
+}
+section#questions {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#questions h3 {
+	font-size: 19px;
+}
+.questions-h3 {
+	width: 240px;
+}
+.accordeon-row {
+	margin-top: 25px;
+}
+section#questions .panel-title {
+	font-size: 16px;
+}
+section#questions .panel-body {
+	font-size: 14px;
+}
+section#questions .panel-default>.panel-heading {
+	padding: 7px 15px;
+}
+.questions-btn {
+	margin-top: 5px;
+	width: 220px;
+	font-size: 16px;
+}
+footer {
+	margin-top: 0;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+footer h3 {
+	font-size: 19px;
+	margin-bottom: 25px;
+}
+footer h5 {
+	font-size: 18px;
+}
+.contacts-btn {
+	margin-left: 0;
+	margin-top: 15px;
+}
+.footer-row {
+	margin-top: 60px;
+}
+.footer-row p {
+	margin-top: 15px;
+	font-size: 17px;
+}
+.footer-row h6 {
+	margin-top: 15px;
+}
+div#form1 .modal-dialog, div#form4 .modal-dialog, div#form5 .modal-dialog, div#form6 .modal-dialog, div#form7 .modal-dialog {
+	margin-top: 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modal-header-row {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: -50px;
+	width: 100%;
+}
+.modal-header-row .col-md-3, .modal-header-row .col-md-9 {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 0;
+}
+.modal-header-row h3 {
+	margin-top: 15px;
+	padding-left: 0;
+	font-size: 18px;
+}
+.modal-header-row h4 {
+	padding-left: 0;
+	font-size: 24px;
+}
+.modal-header-row h5 {
+	padding-left: 0;
+	margin-top: 15px;
+	font-size: 19px;
+}
+.modal-accordion-row {
+	padding-left: 0;
+	padding-right: 0;
+}
+#accordion-modal-1 .panel-body {
+	font-size: 14px;
+}
+#accordion-modal-1 .panel-body {
+	padding: 7px 15px 15px 15px;
+}
+#accordion-modal-1 .panel-title {
+	font-size: 19px;
+}
+.modal-1-form-heading-row {
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal-1-form-heading-row h6 {
+	margin-top: 15px;
+	font-size: 16px;
+}
+.modal-1-form-row {
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal-1-form-row input {
+	width: 200px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.modal-1-form-row button {
+	margin-top: 10px;
+	width: 200px;
+	font-size: 13px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	left: 35%;
+}
+div#form2 .modal-content {
+	background-color: #222;
+	color: #fff;
+	border-radius: 3px;
+	min-height: 250px;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modal-header-form-2  {
+	font-size: 16px;
+	margin-top: 0;
+}
+div#form2 .close {
+	color: #fff;
+	opacity: 1;
+	margin-top: -35px;
+	margin-right: -8px;
+}
+div#form2 .modal-body {
+	padding-bottom: 5px;
+	margin-top: -5px;
+}
+div#form3 .close {
+	margin-top: -35px;
+	margin-right: -8px;
+}
+div#form3 .modal-content {
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 370px;
+}
+div#form3 .modal-body {
+	padding-bottom: 5px;
+	margin-top: -5px;
+}
+div#form3 textarea {
+	width: 200px;
+	font-size: 13px;
+}
+div#polit .modal-header {
+	padding-top: 20px;
+}
+div#polit .close {
+	margin-top: -70px;
+}
+section#reviews-mobile .item {
+	height: 440px;
+}
+.reviews-reed-more-mobile {
+	padding: 21px;
+}
+.reviews-reed-more-mobile a {
+	font-size: 14px;
+}
+.reviews-modal h5 {
+	font-size: 19px;
+}
+.reviews-modal p {
+	font-size: 14px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.for-whom-row img {
+	width: 100px;
+	margin-top: 25px;
+}
+section#for-whom {
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+section#for-whom h3 {
+	font-size: 19px;
+}
+section#for-whom h4 {
+	font-size: 19px;
+	margin-top: 15px;
+}
+section#for-whom p {
+	font-size: 16px;
+}
+.modal-header-row p {
+	padding-left: 0;
+	font-size: 14px;
+}
+div#form1 .modal-header-row img, div#form4 .modal-header-row img, div#form5 .modal-header-row img, div#form6 .modal-header-row img, div#form7 .modal-header-row img {
+	width: 200px;
+}
+#accordion-modal-1 .panel-title, #accordion-modal-2 .panel-title, #accordion-modal-3 .panel-title, #accordion-modal-4 .panel-title, #accordion-modal-5 .panel-title {
+	font-size: 14px;
+}
+#accordion-modal-1 .panel-body, #accordion-modal-2 .panel-body, #accordion-modal-3 .panel-body, #accordion-modal-4 .panel-body, #accordion-modal-5 .panel-body {
+	font-size: 12px;
+}
+}
+/*================== /До 420px ==================*/
+
+/*================== iPad Landscape ==================*/
+@media (min-width: 991px) and (max-width: 1280px) {
+.custom-grid-row {
+	margin-top: 10px;
+}
+.cosmetics-1 {
+	width: 160px;
+}
+.cosmetics-4 {
+	width: 140px;
+	margin-left: 35px;
+}
+.cosmetics-5 {
+	width: 140px;
+	margin-left: -15px;
+}
+.cosmetics-6 {
+	width: 140px;
+}
+div#form1 .modal-dialog, div#form4 .modal-dialog, div#form5 .modal-dialog, div#form6 .modal-dialog, div#form7 .modal-dialog {
+	width: 991px;
+}
+.modal-header-row p {
+	padding-left: 60px;
+}
+.modal-1-form-row button {
+	font-size: 12px;
+}
+.modal-1-form-row input {
+	font-size: 12px;
+}
+div#form2 .modal-content {
+	min-height: 265px;
+}
+}
+/*================== /iPad Landscape ==================*/
+
+/*================== Поправка меню ==================*/
+@media (min-width: 768px) and (max-width: 991px) {
+.nav a {
+	font-size: 14px;
+}
+.nav li {
+	padding: 7px;
+}	
+}
+/*================== /Поправка меню ==================*/
+
+/*================== Фикс со слайдерами косметики и О НАС ПИШУТ ==================*/
+@media (min-width: 420px) and (max-width: 991px) {
+section#about-mobile .item {
+	height: 100px;
+}
+section#about-mobile .about-3 {
+	margin-top: 0;
+	padding-top: 25px;
+}
+section#about-mobile .about-4 {
+	padding-top: 30px;
+}
+section#about-mobile .about-5 {
+	padding-top: 30px;
+}
+section#about-mobile .about-6 {
+	padding-top: 25px;
+}
+}
+/*================== Фикс со слайдерами косметики и О НАС ПИШУТ ==================*/        
